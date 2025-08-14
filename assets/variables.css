@@ -1,0 +1,23 @@
+@import url(/assets/fonts/fonts.css);
+
+:root{
+    /* <------- Colors -------> */
+
+    --Blue-900 : hsl(233,54%,16%);
+    --Blue-600 : hsl(234,25%,52%);
+
+    --Pink-600 : hsl(341,92%,62%);
+    --Pink-300 : hsl(341,100%,83%);
+
+    --Grey     : hsl(232,10%,56%);
+
+    --White    : hsl(0,0%,100%);
+
+    --Gradient-Pink: linear-gradient(to top, hsl(322, 87%, 55%), hsl(13, 100%, 64%));
+
+    --Gradient-Purple: linear-gradient(to bottom, hsl(237,100%,64%), hsl(322,87%,55%));
+
+    /* <------- Typography -------> */
+
+    --PlusJakarta: 'Plus Jakarta Sans', sans-serif;
+}
