@@ -41,7 +41,6 @@ body{
         z-index: 10;
         &:hover{
             background-color: var(--Blue-600);
-            /* outline: transparent; */
         }
     }
 }
@@ -161,13 +160,16 @@ body{
     & .course-card__img{
         width: fit-content;
         max-width: 56px;
-        margin-top: -20px;
+        position: relative;
+        bottom: 20px;
     }
 
     & .course-card__information{
         display: flex;
         flex-direction: column;
         gap: 1.25em;
+        flex-grow: 1;
+        justify-content: space-between;
 
         & .course-card__description{
             font-size: 0.75em;
@@ -193,11 +195,6 @@ body{
     }
 }
 
-& .especial{
-        justify-content: space-around;
-        /* gap: 20px; */
-    }
-
 /* <-------------------- FOOTER -------------------> */
 .footer{
     width: 100%;
@@ -210,7 +207,6 @@ body{
     padding: 1.25em 0.75em;
 
     /*  Button Transition  */
-
     & .button--footer{
         position:relative;
         background-color: var(--Pink-300);
